@@ -1,6 +1,45 @@
-# icim_5th_academy
-about breast cancer data's feature selection method (breast cancer wisconsin)
+# [Team Human ensemble]
 
+#### [Member]
+
+- H.W. Jeong (INHA Univ) qhsh9713@gmail.com
+- J.M. Park (S.N.U) valor1167@gmail.com
+- J.H. Park (S.N.U) jungho.p90@gmail.com
+- H.Y. Choi (C.N.U) bigchoi3449@gmail.com
+
+----
+
+#### [What we do]
+
+Dimensionality reduction & feature selection (Fully automatic !)
+
+- **Data**
+  - Breast Cancer Wisconsin
+  - **[To Do] Another data**
+- **Dimensionality reduction**
+  - Max-min selection
+  - Clustering selection
+- **Feature selection**
+  - Ranking system
+    - Chi square score
+    - Laplacian score
+    - Fisher score
+
+---
+
+### Requirement
+
+```
+pandas == 0.22.0
+numpy == 1.17.0
+scikit-feature ==1.0.0
+scipy == 1.3.1
+sklearn >= 0.0
+xgboost == 0.9.0
+
+```
+
+---
 
 ## Breast Caner Classification
 
@@ -20,7 +59,18 @@ Study background knowledge of features from "nuclear feature extraction for brea
 
   		['texture_mean','symmetry_mean','texture_se','area_se','smoothness_se'...]
 
-   -3. Run a Random Forest Classifier from sklearn => Accurary is beyond 0.95.  
+   -3. Run a Random Forest Classifier from sklearn => ABennett, K. P., &amp; Mangasarian, O. L. (n.d.). ROBUST LINEAR PROGRAMMING
+DISCRIMINATION OF TWO LINEARLY INSEPARABLE SETS. Retrieved from
+https://pdfs.semanticscholar.org/4c5e/562437ee94fb6e4d60ec559386dd0a4335
+13.pdf
+De Silva, V., &amp; Carlsson, G. (2004). Topological estimation using witness complexes.
+In Eurographics Symposium on Point-Based Graphics. Retrieved from
+https://pdfs.semanticscholar.org/957a/afd3a7c8736f286b7638eb89d6db5ed309
+b1.pdf
+Gu, Q., Li, Z., &amp; Han, J. (n.d.). Generalized Fisher Score for Feature Selection.
+Retrieved from https://arxiv.org/pdf/1202.3725.pdf
+He, X., Cai, D., &amp; Niyogi, P. (n.d.). Laplacian Score for Feature Selection. Retrieved
+from https://papers.nips.cc/paper/2909-laplacian-score-for-feature-selection.pdfccurary is beyond 0.95.  
 
    Therefore, we determined it as meaningless because we do not have enough data to split into train and test.
 
@@ -37,7 +87,7 @@ Study background knowledge of features from "nuclear feature extraction for brea
    -1. Ways to reduce dimension : PCA, NMF => Not Challenging
 
     * we realized that around 10 features work most efficiently.
-    
+   
  ## Here is our Main part
 
 ###   -2. Find new method to obtain ultimate efficiency => "Max Min Selector(MMS)"
@@ -70,3 +120,14 @@ Study background knowledge of features from "nuclear feature extraction for brea
 
 We realized that MMS is a groundbreaking method to reduce dimensions. Even though we select negligible feature for initial feature, MMS automatically add dominant feature on the very next step. Its accuracy always goes over 0.9 at least. Please comment us if you find room for improvement
 
+
+
+----
+
+#### Reference
+
+Bennett, K. P., &amp; Mangasarian, O. L. (n.d.). ROBUST LINEAR PROGRAMMING DISCRIMINATION OF TWO LINEARLY INSEPARABLE SETS. Retrieved from https://pdfs.semanticscholar.org/4c5e/562437ee94fb6e4d60ec559386dd0a4335 13.pdf
+
+De Silva, V., &amp; Carlsson, G. (2004). Topological estimation using witness complexes. In Eurographics Symposium on Point-Based Graphics. Retrieved from https://pdfs.semanticscholar.org/957a/afd3a7c8736f286b7638eb89d6db5ed309 b1.pdf
+
+Gu, Q., Li, Z., &amp; Han, J. (n.d.). Generalized Fisher Score for Feature Selection. Retrieved from https://arxiv.org/pdf/1202.3725.pdf He, X., Cai, D., &amp; Niyogi, P. (n.d.). Laplacian Score for Feature Selection. Retrieved from https://papers.nips.cc/paper/2909-laplacian-score-for-feature-selection.pdf

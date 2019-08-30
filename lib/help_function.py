@@ -104,4 +104,4 @@ def plot_cluster_model_acc(model_list,model_acc_list,file_name ='cluster_output'
         
         
     plt.legend()
-    f2.savefig(save_folder +'/'+file_name+'.png')
+    f2.savefig(save_folder +'/'+file_name+'_0to1'+'.png')

@@ -49,7 +49,7 @@ xgboost == 0.9.0
 ## Abstract
 
 
-Study background knowledge of features from "nuclear feature extraction for breast tumor diagnosis(http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.56.707&rep=rep1&type=pdf)" paper. Check mean, standard error, worst of ten Nuclear Features which used to determine a type of tumor; Malignant or Benign. We tried to maximize the  Sensitivity =(predict Malignant)/(total Malignant). This is because patients should notice their aggression of tumor. If tumors are benign, patients have some time to cope with. On the other side, patients have to undergo an operation as soon as possible. In the case of the health clinic, overreacting is better than staying calm. 
+Study background knowledge of features from "nuclear feature extraction for breast tumor diagnosis(http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.56.707&rep=rep1&type=pdf)". Checked mean, standard error, worst of ten Nuclear Features which used to determine a type of tumor; Malignant or Benign. We tried to maximize the  Sensitivity =(predict Malignant)/(total Malignant). This is because patients should notice their aggression of tumor. If tumors are benign, patients have some time to cope with. On the other side, patients have to undergo an operation as soon as possible. In the case of the health clinic, overreacting is better than staying calm. 
 
 1. Common operations in prominent Kernels
 

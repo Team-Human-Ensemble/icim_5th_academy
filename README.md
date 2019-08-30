@@ -120,9 +120,25 @@ from https://papers.nips.cc/paper/2909-laplacian-score-for-feature-selection.pdf
 
 We realized that MMS is a groundbreaking method to reduce dimensions. Even though we select negligible feature for initial feature, MMS automatically add dominant feature on the very next step. Its accuracy always goes over 0.9 at least. Please comment us if you find room for improvement
 
+#### Random result
 
+![random](/home/bono/Desktop/Bono/deep_server/icim_5th_academy/result/figure/random.png)
+
+#### Max-min selection result (Top2)
+
+![top2](/home/bono/Desktop/Bono/deep_server/icim_5th_academy/result/figure/top2.png)
+
+#### Max-min selection result (Bottom 2)
+
+![bottom](/home/bono/Desktop/Bono/deep_server/icim_5th_academy/result/figure/bottom.png)
+
+#### Clustering selection Result
+
+![cluster](/home/bono/Desktop/Bono/deep_server/icim_5th_academy/result/figure/cluster.png)
 
 ----
+
+
 
 #### Reference
 

@@ -1,0 +1,44 @@
+Bacillus	Bacillus cereus
+Bacillus	Bacillus thuringiensis
+Gram + bacilli aerobic spore-forming	Bacillus
+Gram + bacilli aerobic	Gram + bacilli aerobic spore-forming
+Gram + bacilli aerobic	Gram + bacilli aerobic nonsporing
+Gram + bacilli	Gram + bacilli aerobic
+Gram + bacilli	Gram + bacilli anaerobic
+Gram + bacteria	Gram + bacilli
+Gram + bacteria	Gram + cocci
+Bacteria	Gram + bacteria
+Bacteria	Gram - bacteria
+Citrobacter	Citrobacter braakii
+Citrobacter	Citrobacter freundii
+Enterobacteriaceae	Citrobacter
+Enterobacteriaceae	Enterobacter
+Enterobacteriaceae	Escherichia-Shigella
+Enterobacteriaceae	Yersinia
+Gram - bacilli facultatively anaerobic	Enterobacteriaceae
+Gram - bacilli facultatively anaerobic	Pasteurellaceae
+Gram - bacilli	Gram - bacilli facultatively anaerobic
+Gram - bacteria	Gram - bacilli
+Clostridium	Clostridium difficile
+Clostridium	Clostridium glycolicum
+Gram + bacilli anaerobic	Gram + bacilli anaerobic spore-forming
+Gram + bacilli anaerobic spore-forming	Clostridium
+Enterobacter	Enterobacter asburiae
+Enterobacter	Enterobacter cloacae
+Haemophilus	Haemophilus influenzae
+Haemophilus	Haemophilus parainfluenzae
+Pasteurellaceae	Haemophilus
+Listeria	Listeria ivanovii
+Listeria	Listeria monocytogenes
+Gram + bacilli aerobic nonsporing	Listeria
+Escherichia-Shigella	Escherichia coli
+Escherichia-Shigella	Shigella boydii
+Escherichia-Shigella	Shigella flexneri
+Escherichia-Shigella	Shigella sonnei
+Streptococcus	Streptococcus mitis
+Streptococcus	Streptococcus oralis
+Gram + cocci catalase -	Streptococcus
+Gram + cocci aerobic or facultatively aerobic	Gram + cocci catalase -
+Gram + cocci	Gram + cocci aerobic or facultatively aerobic
+Yersinia	Yersinia enterocolitica
+Yersinia	Yersinia frederiksenii

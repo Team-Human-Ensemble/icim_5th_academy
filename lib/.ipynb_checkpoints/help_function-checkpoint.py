@@ -53,7 +53,7 @@ def plot_random_model_acc(model_list,model_mean_acc_list,
         idx = idx+1
           
     plt.legend()
-    f1.savefig(save_folder + '/'+file_name+'.png')
+    f1.savefig('./'+save_folder + '/'+file_name+'.png')
     
     f2 = plt.figure(figsize=fig_size)
     plt.xlabel('number of feature')
@@ -68,7 +68,7 @@ def plot_random_model_acc(model_list,model_mean_acc_list,
         
         
     plt.legend()
-    f2.savefig(save_folder + '/'+file_name+'_0to1'+'.png')
+    f2.savefig('./'+save_folder + '/'+file_name+'_0to1'+'.png')
     
 def plot_cluster_model_acc(model_list,model_acc_list,file_name ='cluster_output',
                            save_folder = 'result',fig_size = (12,12)):
@@ -104,4 +104,4 @@ def plot_cluster_model_acc(model_list,model_acc_list,file_name ='cluster_output'
         
         
     plt.legend()
-    f2.savefig(save_folder +'/'+file_name+'.png')
+    f2.savefig(save_folder +'/'+file_name+'_0to1'+'.png')

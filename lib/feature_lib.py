@@ -70,6 +70,7 @@ def feature_random_test(data, label,num_iter = 100):
     iter_acc = np.zeros((len(model_list), num_iter))
     
     data_feature = list(data.columns)
+    print('Number of feature and iter num : ',len(data_feature))
     acc_list_mean = np.zeros((len(data_feature),len(model_list)))
     acc_list_std = np.zeros((len(data_feature),len(model_list)))
     

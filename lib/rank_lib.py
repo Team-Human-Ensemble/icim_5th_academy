@@ -20,8 +20,9 @@ def get_feature_ranking(raw_data,chi_rank, fisher_rank,lap_rank):
         final_rank : final ranking, chi + fisher + lap, sorting result
         
     '''
+    feature_len = np.shape(raw_data)[1]
     
-    final_rank = np.zeros(30)
+    final_rank = np.zeros(feature_len)
     
     col_name_list = raw_data.columns
     df_feature = pd.DataFrame(col_name_list)
@@ -33,6 +34,7 @@ def get_feature_ranking(raw_data,chi_rank, fisher_rank,lap_rank):
     chi_rank_score_list = []
     fisher_rank_score_list = []
     lap_rank_score_list = []
+    
     
     for idx in range(len(reverse_chi)):
         rank_score = (1/29) * idx 

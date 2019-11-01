@@ -70,6 +70,7 @@ def feature_random_test(data, label,num_iter = 100):
     iter_acc = np.zeros((len(model_list), num_iter))
     
     data_feature = list(data.columns)
+    print('Number of feature and iter num : ',len(data_feature))
     acc_list_mean = np.zeros((len(data_feature),len(model_list)))
     acc_list_std = np.zeros((len(data_feature),len(model_list)))
     
@@ -104,7 +105,7 @@ def feature_random_test(data, label,num_iter = 100):
 
 
 
-def minmax_selector(data, n, initial):
+def maxmin_selector(data, n, initial):
     '''
     Input
         data
@@ -123,7 +124,7 @@ def minmax_selector(data, n, initial):
     return result
 
 
-def feature_minmax_test(data, label,dominant_features):
+def feature_maxmin_test(data, label,dominant_features):
     '''
     Find optimized featrue
     Input
@@ -138,7 +139,7 @@ def feature_minmax_test(data, label,dominant_features):
  
 
     for i in range(len(data.columns)):
-        select_feature_list = minmax_selector(data,i+1,dominant_features)
+        select_feature_list = maxmin_selector(data,i+1,dominant_features)
         x_selected = data[select_feature_list]
         x_train, x_test, y_train, y_test = train_test_split(x_selected,label, test_size=0.2, random_state=42)
         
